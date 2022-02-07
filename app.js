@@ -9,10 +9,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.listen(3000)
 console.log('Node.js Express server id running on port 3000...')
 
-//var user = "jiawei"
-//var password = "123456"
 
-app.set('user','jiawei')
+
+app.set('user','jiechen')
 app.set('password','123456')
 
 app.get('/data/2.5/weather', get_weather)
@@ -38,7 +37,7 @@ function get_hello(request, response) {
         response.sendStatus(401)
     }
 }
-//bullet 4
+//add token
 function get_auth(request, response) {
     var name = request.body.user
     var password = request.body.password
