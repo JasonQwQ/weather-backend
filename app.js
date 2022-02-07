@@ -37,7 +37,7 @@ function get_hello(request, response) {
         response.sendStatus(401)
     }
 }
-//add token
+//add token for bullet 4
 function get_auth(request, response) {
     var name = request.body.user
     var password = request.body.password
