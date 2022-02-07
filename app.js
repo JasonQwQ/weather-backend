@@ -38,6 +38,7 @@ function get_hello(request, response) {
     }
 }
 //add token for bullet 4
+//{"username": "jiechen", "password":"123456"}
 function get_auth(request, response) {
     var name = request.body.user
     var password = request.body.password
