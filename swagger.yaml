@@ -18,6 +18,7 @@ basePath: "/v1"
 tags:
 - name: "jiechen"
  #add token require
+ #from Jiechen
 paths:
   /weather:      
     get:
