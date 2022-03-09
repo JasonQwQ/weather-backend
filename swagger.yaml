@@ -17,10 +17,7 @@ host: "34.229.106.102:3000"
 basePath: "/v1"
 tags:
 - name: "jiechen"
-  # description: "about"
-  # externalDocs:
-  #   # description: "Find out more"
-  #   # url: "https://github.com/Elyon9612"
+ #add token require
 schemes:
 - "http"
 paths:
