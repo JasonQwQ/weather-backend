@@ -18,7 +18,13 @@ basePath: "/v1"
 tags:
 - name: "jiechen"
  #add token require
+
  #from Jiechen
+ 
+
+schemes:
+- "http"
+
 paths:
   /weather:      
     get:
